@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        =  %q{formtastic_datepicker}
-  s.version     = "0.1.1"
+  s.version     = "0.1.2"
   s.authors     = ["izzm"]
   s.email       = ["vladislav.izoria@gmail.com"]
   s.summary     = %q{Formtastic datepicker plugin}
