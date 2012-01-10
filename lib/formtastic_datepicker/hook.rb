@@ -9,8 +9,7 @@ module FormtasticDatepicker
         include FormtasticDatepicker::Helper
 
         def datepicker_input(method, options)
-          ActiveRecord::Base.logger.info options.to_yaml
-
+        sdfsdfsdfsdf
           format = options[:format] || Date::DATE_FORMATS[:default] || '%d %b %Y'
           inp_opts = options.delete(:input_html) || {}
           inp_opts[:value] ||= object.send(method).try(:strftime, format)
