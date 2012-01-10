@@ -1,4 +1,4 @@
-module FormtasticNestedSet
+module FormtasticDatepicker
   module Hooks
     autoload :FormtasticBuilder, 'formtastic_datepicker/hook.rb'
   end
